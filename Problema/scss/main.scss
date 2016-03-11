@@ -1,0 +1,155 @@
+*{
+	font-family: "Lato";
+}
+.container{
+	.logos{
+	    height:70px;
+		width:200px;
+	}
+}
+
+.inicio{
+
+
+ li{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	margin-top: 20px;
+ 	margin-left: 20px;
+
+
+ }
+}
+.primero{
+	background-image: url(../images/1920x665-1.jpg);
+	height: 500px;
+	width: 100%;
+	background-position:center;
+	background-size: 127%;
+	background-color:rgba(0,0,0,0.44);
+	background-blend-mode: multiply;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	position: relative;
+  i{
+  	padding: 2%;
+  }
+}
+.mobile{
+	padding-top: 10%
+}
+ p {
+ line-height: 25px;
+ font-size: 16px;
+}
+h1{
+	font-size: 50px;
+}
+.botones{
+	background: #8B8B8B;
+	padding: 2% 4%;
+	margin-right: 10px;
+	border:1px solid #3DB2F7;
+	border-radius: 20px;
+	color:#3DB2F7;
+	&:hover{
+		background: #3DB2F7;
+		color:white;
+		text-decoration:none;
+	}
+}
+.avalaible{
+	margin-top: 15px;
+}
+.fa-apple{
+	padding: 5%;
+	&:hover{
+		color:#F01E18;
+	}
+}
+
+.fa-android{
+	padding: 5%;
+	&:hover{
+		color:#99CC00;
+	}
+}
+/*parte dos*/
+.botones2 {
+  background: white;
+  padding: 2% 4%;
+  margin-right: 10px;
+  border: 1px solid #3DB2F7;
+  border-radius: 20px;
+  color: #3DB2F7; }
+  .botones2:hover {
+    background: #3DB2F7;
+    color: white;
+    text-decoration: none; }
+
+.second {
+	h2{
+		line-height: 50px;
+	}
+  
+  padding: 3% 2%; }
+
+.phone {
+  height: 350px;
+  width: 500px; }
+
+.cel {
+  padding: 2% 4%; }
+
+span {
+  color: #3DB2F7; }
+
+.cuatro{
+    padding: 3%;
+}
+
+.recreat {
+  text-align: center; }
+
+.phone2 {
+  height: 250px;
+  width: 350px; 
+ 
+}
+.good{
+	padding-bottom: 3%;
+}
+  .medio{
+    background: #F6F6F6;
+  }
+footer{
+
+    text-align: center;
+    padding: 2%;
+
+.circle {
+  display: inline-block;
+  color: #3DB2F7;
+  font-size: 20px;
+  padding:8px 15px;
+  border:1px solid #3DB2F7;
+  border-radius: 50px; 
+  margin: 5px;
+}
+}
+
+.medio {
+	.app{
+		margin: 12px;
+	}
+p{
+    font-size: 15px;
+}
+padding: 4%;
+}
+@media  screen and (min-width:300px)and (max-width: 900px) {
+	.phone{
+		width:100%;
+	}
+}
+
